@@ -1,0 +1,38 @@
+/*============================
+  ===== about css starts =====
+==============================*/
+#about{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .heading-area{
+    .heading{
+      h1{
+        margin-bottom: 60px;
+        span{
+          color: #ff0000;
+        }
+      }
+    }
+  }
+
+  .item-area{
+    background: #edf5f8;
+    .item{
+      padding: 15px;
+      cursor: pointer;
+      transition: all linear 0.4s;
+      &:hover{
+        background: #fff4d6;
+      }
+      a{
+        i{
+          color: #212529;
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}
+/*==========================
+  ===== about css ends =====
+============================*/

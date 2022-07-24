@@ -1,0 +1,54 @@
+/*=============================
+  ===== header css starts =====
+===============================*/
+#header{
+  .heading{
+    background: #fafbff;
+  }
+  .text-area{
+    position: relative;
+    h1{
+      padding-right: 121px;
+      padding-left: 15px;
+      span{
+        color: #ff0000;
+      }
+      &::before{
+        content: "";
+        height: 100px;
+        width: 5px;
+        background: #ff0000;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+    p{
+      color: #212529;
+    }
+    button{
+      background: #ff0000;
+      color: #fff;
+      padding: 10px 25px;
+      transition: all linear 0.4s;
+      &:hover{
+        background: #8d0d0d;
+      }
+    }
+    h6{
+      color: #212529;
+      padding-bottom: 200px;
+    }
+  }
+
+  .image-area{
+    .image{
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+/*===========================
+  ===== header css ends =====
+=============================*/

@@ -1,0 +1,187 @@
+/*=============================
+  ===== common css starts =====
+===============================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+img {
+  vertical-align: middle; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.container {
+  width: 1140px;
+  margin: 0 auto; }
+
+/*===========================
+  ===== common css ends =====
+=============================*/
+/*=============================
+  ===== header css starts =====
+===============================*/
+#header .heading {
+  background: #fafbff; }
+#header .text-area {
+  position: relative; }
+  #header .text-area h1 {
+    padding-right: 121px;
+    padding-left: 15px; }
+    #header .text-area h1 span {
+      color: #ff0000; }
+    #header .text-area h1::before {
+      content: "";
+      height: 100px;
+      width: 5px;
+      background: #ff0000;
+      position: absolute;
+      top: 0;
+      left: 0; }
+  #header .text-area p {
+    color: #212529; }
+  #header .text-area button {
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 25px;
+    transition: all linear 0.4s; }
+    #header .text-area button:hover {
+      background: #8d0d0d; }
+  #header .text-area h6 {
+    color: #212529;
+    padding-bottom: 200px; }
+#header .image-area .image img {
+  width: 100%; }
+
+/*===========================
+  ===== header css ends =====
+=============================*/
+/*============================
+  ===== about css starts =====
+==============================*/
+#about {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  #about .heading-area .heading h1 {
+    margin-bottom: 60px; }
+    #about .heading-area .heading h1 span {
+      color: #ff0000; }
+  #about .item-area {
+    background: #edf5f8; }
+    #about .item-area .item {
+      padding: 15px;
+      cursor: pointer;
+      transition: all linear 0.4s; }
+      #about .item-area .item:hover {
+        background: #fff4d6; }
+      #about .item-area .item a i {
+        color: #212529;
+        font-size: 50px; }
+
+/*==========================
+  ===== about css ends =====
+============================*/
+/*=============================
+  ===== about2 css starts =====
+===============================*/
+#about2 .text-area h1 {
+  padding-right: 136px; }
+#about2 .text-area p {
+  color: #212529; }
+#about2 .text-area button {
+  background: #ff0000;
+  color: #fff;
+  padding: 10px 25px;
+  transition: all linear 0.4s; }
+  #about2 .text-area button:hover {
+    background: #8d0d0d; }
+#about2 .text-area h6 {
+  color: #212529;
+  padding-bottom: 200px; }
+#about2 .image-area .image img {
+  width: 90%; }
+
+/*===========================
+  ===== about2 css ends =====
+=============================*/
+/*=============================
+  ===== about3 css starts =====
+===============================*/
+#about3 .text-area h1 {
+  padding-right: 136px; }
+#about3 .text-area p {
+  color: #212529; }
+#about3 .text-area button {
+  background: #ff0000;
+  color: #fff;
+  padding: 10px 25px;
+  transition: all linear 0.4s; }
+  #about3 .text-area button:hover {
+    background: #8d0d0d; }
+#about3 .text-area h6 {
+  color: #212529;
+  padding-bottom: 200px; }
+#about3 .image-area .image img {
+  width: 90%; }
+
+/*===========================
+  ===== about3 css ends =====
+=============================*/
+/*=============================
+  ===== about4 css starts =====
+===============================*/
+#about4 .text-area {
+  position: relative; }
+  #about4 .text-area h1 {
+    padding-right: 121px;
+    padding-left: 15px; }
+    #about4 .text-area h1 span {
+      color: #ff0000; }
+    #about4 .text-area h1::before {
+      content: "";
+      height: 100px;
+      width: 5px;
+      background: #ff0000;
+      position: absolute;
+      top: 0;
+      left: 0; }
+  #about4 .text-area p {
+    color: #212529; }
+  #about4 .text-area button {
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 25px;
+    transition: all linear 0.4s; }
+    #about4 .text-area button:hover {
+      background: #8d0d0d; }
+  #about4 .text-area h6 {
+    color: #212529;
+    padding-bottom: 200px; }
+#about4 .image-area .image img {
+  width: 100%; }
+
+/*===========================
+  ===== about4 css ends =====
+=============================*/
+/*=============================
+  ===== footer css starts =====
+===============================*/
+#footer {
+  background: #000000; }
+  #footer h1 {
+    padding-top: 35px; }
+    #footer h1 span {
+      color: #ff0000; }
+  #footer p {
+    padding-bottom: 45px;
+    font-size: 18px; }
+    #footer p span {
+      color: #e55e5e; }
+
+/*===========================
+  ===== footer css ends =====
+=============================*/
